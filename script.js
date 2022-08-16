@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://git.heroku.com/kodilla-task-crud.git/v1/tasks';
-  const trelloApiRoot = 'https://git.heroku.com/kodilla-task-crud.git/v1/trello';
+  const apiRoot = 'https://kodilla-task-crud.herokuapp.com/v1/tasks';
+  const trelloApiRoot = 'https://kodilla-task-crud.herokuapp.com/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
